@@ -4,7 +4,9 @@
   "description": "Creates or updates a build.json file with build date/time, branch name, and semver",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build ./index.js -o dist",
+    "deploy": "git tag -d v1; git push origin main v1 --force"
   },
   "keywords": [
     "github",
