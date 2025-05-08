@@ -13,8 +13,8 @@ inputs:
     default: 'build.json'
 
 runs:
-  using: 'node16'
-  main: 'index.js'
+  using: 'node20'
+  main: 'dist/index.js'
 
 branding:
   icon: 'info'

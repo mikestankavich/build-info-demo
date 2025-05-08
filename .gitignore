@@ -1,6 +1,5 @@
 # Dependency directories
-# while we would normally ignore the node_modules directory we need it in the source tree for javascript actions
-# node_modules/
+node_modules/
 
 # npm package files
 package-lock.json
@@ -18,6 +17,3 @@ npm-debug.log
 # OS specific files
 .DS_Store
 Thumbs.db
-
-# Build output
-dist/
