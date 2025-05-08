@@ -1,5 +1,5 @@
 {
-  "name": "build-info-demo",
+  "name": "build-info-demo-action",
   "version": "0.1.0",
   "description": "Creates or updates a build.json file with build date/time, branch name, and semver",
   "main": "index.js",

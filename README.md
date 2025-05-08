@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: Generate build info
-        uses: mikestankavich/build-info-demo@v1
+        uses: mikestankavich/build-info-demo-action@v1
         with:
           # Optional: path to VERSION file (defaults to 'VERSION')
           version-file: 'VERSION'
