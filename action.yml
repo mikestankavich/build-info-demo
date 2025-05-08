@@ -1,0 +1,21 @@
+name: 'Build Info Generator Demo'
+description: 'Creates or updates a build.json file with build date/time, branch name, and semver from VERSION'
+author: 'Mike Stankavich'
+
+inputs:
+  version-file:
+    description: 'Path to the VERSION file (optional)'
+    required: false
+    default: 'VERSION'
+  output-file:
+    description: 'Path to the output JSON file'
+    required: false
+    default: 'build.json'
+
+runs:
+  using: 'node16'
+  main: 'index.js'
+
+branding:
+  icon: 'info'
+  color: 'blue'
