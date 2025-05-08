@@ -1,5 +1,6 @@
 # Dependency directories
-node_modules/
+# while we would normally ignore the node_modules directory we need it in the source tree for javascript actions
+# node_modules/
 
 # npm package files
 package-lock.json
